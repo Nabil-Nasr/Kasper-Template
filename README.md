@@ -1,2 +1,2 @@
 # Kasper-Template
-Learning Template With Elzero Web School
+Learning Template from Elzero Web School
