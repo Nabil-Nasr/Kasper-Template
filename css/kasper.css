@@ -415,6 +415,10 @@ header nav .form i{
     left: 50%;
     display: inline-block;
     transform: translateX(-50%);
+    transition: .5s;
+}
+.portfolio .more:hover {
+    transform: translateX(-50%) scale(1.1);
 }
 .portfolio .super {
     height: max(250px,min(600px,100vh));
@@ -446,6 +450,10 @@ header nav .form i{
     font-size: 12px;
     font-weight: bold;
     margin-top: 30px;
+    transition:transform .3s;
+}
+.portfolio .super .transparent .see-more:hover {
+    transform: scale(1.1);
 }
 /* about */
 .about {
